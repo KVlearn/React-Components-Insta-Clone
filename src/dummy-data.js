@@ -54,6 +54,32 @@ const dummyData = [
             },
         ],
     },
+    {
+        id: 3,
+        username: "kavyacoffeekavya",
+        thumbnailUrl: 'https://images.unsplash.com/photo-1497515114629-f71d768fd07c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60',
+        imageUrl: 'https://images.unsplash.com/photo-1535403318185-d612e6b1dc3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60',
+        likes: 100,
+        timestamp: "Sep 19th 2020, 12:42:40 pm",
+        comments: [
+            {
+                id: 23,
+                username: "Kavyacoffee",
+                text: "What more you need in Life than a Coffee!",
+            },
+            {
+                id: 24,
+                username: "legoman",
+                text: "Thats a Great Morning Time!",
+            },
+            {
+                id: 25,
+                username: "coffeemom",
+                text: "Can't wait to try it!",
+            },
+        ],
+    },
+    
 ];
 
 export default dummyData;
